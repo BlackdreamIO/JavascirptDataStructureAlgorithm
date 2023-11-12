@@ -9,7 +9,7 @@ function RecursiveCountDown(fromNumber)
 
     if (number > 0) // run the recursive untill the number is 0
     {
-        countDown(number);
+        RecursiveCountDown(number); // calls the function
     }
 }
-RecursiveCountDown(3);
+RecursiveCountDown(5); // count down from 5 to 0
